@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Shopping Cart</title>
+</head>
+
+<body class="">
+    <Section class="navbar">
+        <header class="container-fluid">
+            <div class="container-fluid d-sm-inline-flex menu bg-white">
+                <!-- logo -->
+                <div class="">
+                    <img src="image/2.PNG" alt="logo" class="logo">
+                </div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li><!--  Hassane Abdel-Razak -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contact" href="#">96-54-00-00</a>
+                    </li>
+
+                </ul>
+
+                <div class="shopping">
+                    <button><i class="fa-solid fa-cart-shopping">
+                            Items</i><span class="quantity">0</span></button>
+                </div>
+
+                <div class="card">
+                    <h1>Card</h1>
+                    <ul class="listCard">
+                    </ul>
+                    <div class="checkOut">
+                        <div class="total">0</div>
+                        <div class="closeShopping">Close</div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+    </Section>
+
+
+    <section class="home">
+        <div class="title">
+            <h1><span>Welcome to</span> <span style='color: #ed831a;'>QUANDHY</span></h1>
+            <br>
+            <button>Explore</button>
+        </div>
+
+    </section>
+    <section class="about">
+        <div class="container aboutUs my-3">
+            <h1>About us</h1>
+        </div>
+
+        <div class=" container d-lg-flex">
+            <div class="container col-lg-5 col-sm-12 presentaion">
+                <p>
+                    Parce que dans la pâtisserie, le plaisir vient tout autant de la contemplation
+                    que de la dégustation, Planète Gâteau a a cœur de mettre le cake design à la portée
+                    de tous. En effet, pour les grandes occasions notamment, il est normal de vouloir en
+                    mettre plein les yeux avec sa dernière création. C’est pourquoi nous proposons notamment des
+                    décorations
+                    pour gâteau d’anniversaire ou des décorations de buches de Noel qui vont sublimer votre cuisine.
+                </p>
+                <details>
+                    <summary>...Lire la suite</summary>
+                    <p>
+                        Par exemple, pour personnaliser votre gâteau, pourquoi ne pas opter pour l’impression photo
+                        sur pâte à sucre ?
+                        Cela apportera une touche de personnalité à votre réalisation, en sus d’impressionner tous
+                        vos convives.
+                        Nous proposons un large choix de déclinaisons pour les ces impressions alimentaires
+                        personnalisées,
+                        donc n’hésitez pas à naviguer et à découvrir toutes les possibilités que nous avons en stock
+                        !
+                        Nous proposons également des feuilles de transfert à l’achat, pour les utilisateurs les plus
+                        avancés.
+                        <!-- Hassane Abdel-Razak -->
+                        La base de la décoration de gâteau reste cependant la pâte à sucre. Sans elle, impossible de
+                        réellement pratiquer le Cake Design,
+                        puisque c’est elle que l’on va manipuler et travailler au cours de la confection du gâteau.
+                        Nous proposons de la pâte à sucre de qualité et de tout type :
+                        pâte à sucre prête à poser, pâte à sucre noire, pâte à sucre dorée … Mais au-delà de toutes
+                        ces variantes, nous sommes particulièrement fiers, de vous proposer notre propre pâte à
+                        sucre,
+                        la pâte à sucre Planète Gateau. N’hésitez pas à la tester et à nous faire vos retours !
+
+                        Enfin, il vous faut savoir que Planète Gâteau n’est pas qu’un site de vente en ligne :
+                        le site dispose en effet également de son propre blog de pâtisserie et de ses blogueuses
+                        attitrées,
+                        sur lequel des tutoriels innovants sont mis en ligne pour en apprendre toujours plus sur le
+                        Cake Design.
+                        Que vous débutiez ou que vous ayez déjà roulé votre bosse dans le milieu du cake design,
+                        vous trouverez une nouvelle
+                        recette à tester au sein de ces pages
+                    </p>
+
+                </details>
+            </div>
+            <div class="container col-lg-7 col-sm-12 imageAbout">
+                <img src="image/cupcakes-fond.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="store my-5">
+        <div class="container filter my-5">
+            <h1>Our store</h1>
+
+            <div class=" recherche">
+                <div class="form col-8 ">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="form-control form-input" placeholder="Search anything..." id="search">
+                    <span class="left-pan"><i class="fa fa-microphone"></i></span>
+                </div>
+
+                <div class="container btRecherche">
+                    <button class="btn" type="button" id="All">All</button>
+                    <button class="btn" type="button" id="Cakes">Cakes</button>
+                    <button class="btn" type="button" id="Cupcakes">Cupcakes</button>
+                    <button class="btn" type="button" id="Sweets">Sweets</button>
+                    <button class="btn" type="button" id="Doughnut">Doughnut</button>
+                </div>
+            </div>
+
+            <div class="container btRecherche">
+
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 list">
+            <!-- Hassane Abdel-Razak -->
+
+        </div>
+        <div id="slideshow" class="slideshow">
+            <!-- Les images du diaporama seront insérées ici depuis  Hassane Abdel-Razak JavaScript -->
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
